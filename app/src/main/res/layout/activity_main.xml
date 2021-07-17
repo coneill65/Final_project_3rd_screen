@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Page1Header"
+        android:layout_width="286dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/page1header"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Page1Txt"
+        android:layout_width="284dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="144dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/page1txt"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Page1Header"
+        tools:text="This app will give you some light examples of what neural networks are." />
+
+    <Button
+        android:id="@+id/NextBtnPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Page1Txt" />
+
+    <Button
+        android:id="@+id/PrevBtnPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="192dp"
+        android:shadowColor="#FF1A1A"
+        android:text="@string/prev"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF0000"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FF0000"
+        app:backgroundTint="#31000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Page1Txt"
+        app:rippleColor="#FFFFFF"
+        app:strokeColor="#FF0000" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

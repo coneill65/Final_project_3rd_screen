@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="page1header">A look at neural networks.</string>
+    <string name="page1txt">This app will give you some light examples of what neural networks are.</string>
+    <string name="prev">Prev</string>
+    <string name="prev2">Prev</string>
+    <string name="does_this_work">Does this work?</string>
+    <string name="next">Next</string>
+    <string name="Page2Header">A Neural network.</string>
+    <string name="Page2Txt">This is a neural network i trained for my final project for prg-105, it takes three binary inputs(0 or 1) then sends it through the weight which are the strands, blue for positive and red for negative. Then it sends out it\'s guess for whether it was a apple or an orange.</string>
+    <string name="ai_nueral_network_example">AI nueral network example</string>
+</resources>
