@@ -7,25 +7,6 @@
     android:background="#FFFFFF"
     tools:context=".Screen2">
 
-    <Button
-        android:id="@+id/NextBtnPage2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
-        android:layout_marginBottom="44dp"
-        android:shadowColor="#FF1A1A"
-        android:text="@string/next"
-        android:textColor="#FFFFFF"
-        android:textColorHighlight="#FF0000"
-        android:textColorHint="#FF0000"
-        android:textColorLink="#FF0000"
-        app:backgroundTint="#31000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:rippleColor="#FFFFFF"
-        app:strokeColor="#FF0000" />
-
     <TextView
         android:id="@+id/page1Header"
         android:layout_width="254dp"
@@ -45,9 +26,9 @@
         android:id="@+id/prevBtnPage2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="28dp"
         android:shadowColor="#FF1A1A"
         android:text="@string/prev2"
         android:textColor="#FFFFFF"
@@ -58,6 +39,26 @@
         app:iconTint="#05AE77"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#FFFFFF"
+        app:strokeColor="#FF0000" />
+
+    <Button
+        android:id="@+id/nextBtnPage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="28dp"
+        android:shadowColor="#FF1A1A"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FF0000"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FF0000"
+        app:backgroundTint="#6618F1"
+        app:iconTint="#05AE77"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:rippleColor="#FFFFFF"
         app:strokeColor="#FF0000" />
 
@@ -75,8 +76,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="284dp"
-        android:layout_height="219dp"
+        android:layout_width="289dp"
+        android:layout_height="254dp"
         android:layout_marginTop="16dp"
         android:text="@string/Page2Txt"
         android:textColor="#000000"

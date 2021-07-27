@@ -9,4 +9,13 @@
     <string name="Page2Header">A Neural network.</string>
     <string name="Page2Txt">This is a neural network i trained for my final project for prg-105, it takes three binary inputs(0 or 1) then sends it through the weight which are the strands, blue for positive and red for negative. Then it sends out it\'s guess for whether it was a apple or an orange.</string>
     <string name="ai_nueral_network_example">AI nueral network example</string>
+    <string name="title_activity_the_weights">The Weights</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="this_page_will_display_some_info_about_how_the_weights_and_biases_work">This page will display some info about how the weights and biases work.</string>
 </resources>

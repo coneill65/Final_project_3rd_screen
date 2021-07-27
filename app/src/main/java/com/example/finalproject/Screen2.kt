@@ -17,5 +17,12 @@ class Screen2 : AppCompatActivity() {
             startActivity(intent)
 
         }
+        val btnProfile2 = findViewById<Button>(R.id.nextBtnPage2)
+        btnProfile2.setOnClickListener{
+
+            val intent = Intent(this, Weights::class.java)
+            startActivity(intent)
+
+        }
     }
 }
